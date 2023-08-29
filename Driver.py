@@ -1,5 +1,5 @@
 """
-A simple program that encrypts, decrypts, and cracks ceaser (shift) ciphers
+A simple program that encrypts, decrypts, and cracks caeser (shift) ciphers
 """
 
 # import modules
@@ -15,6 +15,7 @@ type = input(
              (1). Encrypt 
              (2). Decrypt 
              (3). Crack 
+             
              """
 )
 

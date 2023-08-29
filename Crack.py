@@ -24,5 +24,5 @@ def crack(ciphertext):
                 result += chr((ord(char) - x - 97) % 26 + 97)
 
         number = number + 1
-        print("Possible decryption #" + str(number) + " is:" + result)
+        print("Possible decryption #" + str(number) + " is: " + result)
         result = ""
