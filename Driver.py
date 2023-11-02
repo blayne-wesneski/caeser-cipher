@@ -1,13 +1,14 @@
 """
-A simple program that encrypts, decrypts, and cracks Caesar (shift) ciphers
+Program Name: Caeser (shift) Cipher
+Author: Blayne Wesneski
+Date: August 29th, 2023
+Description: This program allows a user to encrypt, decrypt, or crack a caeser (shift) cipher.
 """
 
 # Import necessary modules
 from Encrypt import encrypt
 from Decrypt import decrypt
 from Crack import crack
-
-__author__ = "Blayne Wesneski"
 
 # Ask the user to choose a function (Encrypt, Decrypt, or Crack)
 type = input(
